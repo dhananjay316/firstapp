@@ -1,0 +1,4 @@
+<p>This is test welcome page!!!</p>
+
+<%=link_to 'log in', new_member_session_path%>
+<%= link_to 'Sign Out', destroy_member_session_path, method: :delete, data: { confirm: 'Are you sure?' } %>
